@@ -16,34 +16,59 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/reset.css" />
 
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css" rel="stylesheet" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css" type="text/css">
     <title>Title</title>
+    <style>
+      body { margin: 0; padding: 0; }
+      #map {  width:400px; height:400px; }
+    </style>
+    
   </head>
   <body>
-    <div  class="main">
+    <div class="main">
       <div class="navbar col-sm-12">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
-              Bootstrap
-            </a>
+          <a class="navbar-brand" href="#">
+            <img
+              src="/docs/5.1/assets/brand/bootstrap-logo.svg"
+              alt=""
+              width="30"
+              height="24"
+              class="d-inline-block align-text-top"
+            />
+            Bootstrap
+          </a>
+
+          <div class="nav">Welcome Nathan!</div>
+          <div class="nav">Dedicated News</div>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-evenly">
+        <div class="inner">
+          <div class="in1">twitter box</div>
+        </div>
+        <div class="inner">
+          <div id="map" class="in2">maps main box</div>
+
+            
+             
          
-        <div class="nav">nav ba;;</div>
-        <div class="nav">nav gya</div> 
-    </div>
-    </div>
+        </div>
 
-
-      <div style="display:flex; justify-content: space-evenly;" >
-        <div class="inner">bad</div>
-        <div class="inner">life</div>
-        <div class="inner">good life</div>
+        <div class="inner">
+          <div class="in3">life</div>
+        </div>
       </div>
     </div>
 
-
-
-    <div style="position: absolute; top:99vh; left:45vw;" class="footer">pojwnepoufnwe</div>
-
+    <div style="position: absolute; top: 99vh; left: 45vw" class="footer">
+      pojwnepoufnwe
+    </div>
+    <script src="./assets/js/Maps/index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
   </body>

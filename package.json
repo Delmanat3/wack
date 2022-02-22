@@ -1,0 +1,20 @@
+{
+  "name": "wack",
+  "version": "1.0.0",
+  "description": "wack...",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Delmanat3/wack.git"
+  },
+  "author": "Nathan Delman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Delmanat3/wack/issues"
+  },
+  "homepage": "https://github.com/Delmanat3/wack#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
