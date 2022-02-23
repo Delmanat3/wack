@@ -10,6 +10,7 @@ document.body.append(processing);
 
 // speech to text
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+console.log(SpeechRecognition)
 let toggleBtn = null;
 if (typeof SpeechRecognition === "undefined") {
 	startBtn.remove();
